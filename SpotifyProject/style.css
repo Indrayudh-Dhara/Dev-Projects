@@ -195,6 +195,10 @@ img{
 .bar{
     width: 80%;;
     margin-bottom: 20px;
+    appearance: none;
+    height: 4px;
+    border-radius: 1rem;
+    cursor: pointer;
 
 }
 .footer{
@@ -206,6 +210,43 @@ img{
 .line{
     height: 30%;
     width: 95%;
-    border-top: 2px solid white;
+    border-top: 2px solid whitesmoke;
     opacity: 0.2;
+}
+.bar::-webkit-slider-thumb{
+    appearance: none;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: #1ED760;
+}
+.song{
+    display: flex;
+    position: fixed;
+    margin-left: 20px;
+    left: 0;
+    height: 12%;
+    width: 17%;
+    align-items: center;
+}
+.songimg{
+    height: 80%;
+    width: 60px;
+}
+.credits{
+    margin-left: 7px;
+    color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.music-settings{
+    display: flex;
+    position: fixed;
+    right: 0;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 12%;
+    width: 17%;
 }

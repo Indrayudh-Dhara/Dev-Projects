@@ -1,6 +1,6 @@
 # Spotify Project
 
-This is a Spotify Home Page , only using CSS and Javascript .
+This is a Spotify Home Page , only using HTML and CSS .
 
 # NOTE 
 

@@ -25,9 +25,14 @@ body{
 .music-player{
     position: fixed;
     bottom: 0;
+    left: 0;
+    right: 0;
     height: 72px;
     width:100%;
     background-color: black;
+    display: flex;
+    justify-content: center;
+
 }
 .options{
     color: white;
@@ -150,7 +155,57 @@ img{
     font-weight: 500;
     font-size: small;
     opacity: 0.7;
+    color: white;
+    padding-left: 0.7rem;
 }
 .trend{
     display: flex;
+}
+.music-box{
+    display: flex;
+    height: 100%;
+    width: 35%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.music-box-half1{
+    padding-top: 7px;
+    display: flex;
+    height: 50%;
+    width: 40%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.music-box-half2{
+    display: flex;
+    padding-bottom: 5px;
+    height: 50%;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.music-icons{
+    height: 12px;
+    width: 12px;
+}
+.pause{
+    height: 30px;
+    width: 30px;
+}
+.bar{
+    width: 80%;;
+    margin-bottom: 20px;
+
+}
+.footer{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    height: 30%;
+    width: 95%;
+    border-top: 2px solid white;
+    opacity: 0.2;
 }
